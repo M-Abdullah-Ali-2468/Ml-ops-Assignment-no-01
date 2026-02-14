@@ -1,5 +1,4 @@
 
-```markdown
 # MLOps Assignment – Automation Using Makefile (Titanic Dataset)
 
 ## Overview
