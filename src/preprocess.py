@@ -1,5 +1,5 @@
 import pandas as pd
-import osk
+import os
 
 def preprocess_data():
     # Load raw Titanic dataset

@@ -12,7 +12,9 @@ def download_data():
     DATASET_NAME = "titanic.csv"
 
     # Base path of the project (Makefile is run from project root)
-    BASE_PATH = os.getcwd()
+    CURRENT_FILE_PATH = os.path.abspath(__file__)
+    BASE_PATH = os.path.dirname(os.path.dirname(CURRENT_FILE_PATH))
+
 
     # Path where raw data will be stored
     RAW_DATA_PATH = os.path.join(BASE_PATH, "data/raw")
